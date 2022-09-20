@@ -1,0 +1,21 @@
+// **************OPERATEURS
+
+
+// - "+" addition
+
+// - "-" soustraction
+
+// - "*" multiplication
+
+// - "/" division
+
+// - "%" modulo <=> 5/2 = 2.45343 restant 1 ( lmodilo = le reste de la division)
+
+// - "**" exponentielle 5**2 = 25 (5 puissance 2)
+
+let nombreUn = 8, nombreDeux = 4, result;
+result = (nombreUn + nombreDeux) * 9; // 108
+result++; // incrémentation = ajoute 1
+result--; // décrémentation = retire 1
+
+console.log(result); // 108
