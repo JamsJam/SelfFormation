@@ -4,8 +4,7 @@ import './App.css';
 function App() {
 
   const [dataComponent, setDatacomponent] = useState(0);
-  const [dataComponent1, setDatacomponent1] = useState(0);
-  const [dataComponent2, setDatacomponent2] = useState(0);
+
 
   // Creer une fonc,tion qui sera appeler a chaque mise a jour du state
   //en passant un tableau en affichage permet d'indiquer quel element surveiller
@@ -13,7 +12,7 @@ function App() {
   // test avec cataComponent et dataComponent1
   useEffect(()=>{
     console.log("data Change")
-  },[dataComponent2])
+  },[])
 
 
 
