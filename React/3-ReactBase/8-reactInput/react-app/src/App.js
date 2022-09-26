@@ -7,7 +7,7 @@ function App() {
 
   const [inputData, setInputData] = useState()
   const changeInput = (e) => {
-    // En ecriment dans l'input, on mets a jour le State avec la valeur de l'input
+    // En ecrivant dans l'input, on mets à jour le State avec la valeur de l'input
     setInputData(e)
   }
   console.log(inputData)

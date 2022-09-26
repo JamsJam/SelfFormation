@@ -5,19 +5,19 @@ import Item from './Item';
 function App() {
 
 
-  const [inputData, setInputData] = useState()
-  const changeInput = (e) => {
-    // En ecriment dans l'input, on mets a jour le State avec la valeur de l'input
-    setInputData(e)
+  const [toggle, setToggle] = useState(true);
+  const changeState = () => {
+    setToggle(!toggle)
   }
-  console.log(inputData)
+  
   return (
     <div className="App">
-      <h1>hello state App</h1>
+      {/* Condition ternaire pour un rendu conditionnel */}
+      { toggle ? <h1>hello toggle !</h1> : <h1>Ciao toggle!</h1>}
+      {/* short circuit operator. Fonctionne seulement sur la valeur de true ou seulement sur la valuer de false */}
+      {toggle && <h1>hello toggle uniquement ON!</h1>}
       < Item  />
-      {/* input dont je recupere la valeur de la saisie */}
-      <input type="text" onInput={e =>changeInput(e.target.value)} />
-        
+      <button onClick={changeState}> Change mon state</button>
     </div>
 
 
