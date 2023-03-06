@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from "./Components/Navbar/Navbar"
+import Navbar from "./Components/Navbar/Navbar";
 import Modal from "./Components/Modal/Modal";
 import Accord from "./Components/Accordeon/Accord";
 
@@ -11,8 +11,11 @@ function App() {
     <>
 
       <Navbar/>
+
       <Modal/>
+
       <Accord/>
+    
     </>
   );
 }

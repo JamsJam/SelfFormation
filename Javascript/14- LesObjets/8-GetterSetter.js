@@ -23,7 +23,8 @@ class Utilisateur {
 
         //permet de definir une valeur
         set nomComplet(valeur) {
-            [this.prenom, this.nom] = valeur.split(' '); // split() divise une chaîne de caractère à partir d'un séparateur pour faire un tableau (espace si rien n'est specifier)
+            [this.prenom, this.nom] = valeur.split(' '); // split('/') => [prenom, nom] -- valeur = "prenom/nom"
+            // split() divise une chaîne de caractère à partir d'un séparateur pour faire un tableau (espace si rien n'est specifier)
         }
 }
 

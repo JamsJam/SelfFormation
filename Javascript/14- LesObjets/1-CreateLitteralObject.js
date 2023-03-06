@@ -12,6 +12,7 @@ let mark = {
 
 mark.sePresenter();
 
+
 function recevoirCoordonnees() {
     return {
             latitude: 35, 

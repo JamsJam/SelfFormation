@@ -40,12 +40,12 @@ class Magicien extends Personnage{
     }
 
 
-    // Attaque porté a personnage
+// Attaque porté a personnage
     attaquer(personnage) {
         if(this.sante > 0){
             personnage.sante -=  this.attaque;
             //affichage
-            console.log (this.pseudo+" attque "+ personnage.pseudo +"en lançant un sort ("+ this.attaque +" dégâts)");
+                console.log (this.pseudo+" attque "+ personnage.pseudo +"en lançant un sort ("+ this.attaque +" dégâts)");
             //on augmente le niveau de l'attaquant
             this.evoluer();
             //On verifie la santé de l'adversaire

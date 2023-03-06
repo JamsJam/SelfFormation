@@ -16,5 +16,5 @@ console.log(container)
 
 // Selection universel 
 let laTag = Document.querySelectorAll('p')
-let lId = Document.querySelectorAll('#logo')
+let lId = Document.querySelector('#logo')
 let laClass = Document.querySelectorAll('.container')

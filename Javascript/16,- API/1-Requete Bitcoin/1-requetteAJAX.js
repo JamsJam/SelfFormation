@@ -2,7 +2,7 @@
 //1 on stock l'URL qui sera utilisé avec AJAX
 const url = 'https://blockchain.info/ticker';
 
-
+// cette fonction va nous permettre de recuperer le prix du bitcoin en euro et de l'afficher dans la page HTML 
 function prixActualisé() {
     
     //2 creer une requete

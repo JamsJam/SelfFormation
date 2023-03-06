@@ -1,0 +1,47 @@
+.navigation{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    height: 5rem;
+    position: relative;
+
+    /*  */
+    background: linear-gradient(90deg, #2c3e50, #3498db);
+}
+
+.navigation h1{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navContent{
+
+    position: absolute;
+    padding-block: 1.5rem;
+    
+    background: hsl(240deg 100% 85%);
+    width: 100%;
+    top: 5rem;
+    transition: all 0.5s ease-in-out;
+
+}
+.navContent ul{
+   
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.618em;
+}
+
+.nav--on{
+    left: 0;
+}
+.nav--off{
+    left: -300%;
+}
